@@ -6,4 +6,11 @@ export interface ButtonProps {
   }
 
 
- 
+export interface PageRouteProps {
+    pageRoute: string
+  }
+
+
+export interface LayoutProps {
+    children: React.ReactNode;
+  }
